@@ -1,7 +1,7 @@
 FROM debian:jessie
-
+#Unterhalter des Dokumentes
 MAINTAINER Silvan Bärlocher
-
+#ENV steht für Environment. Hier wird die Codierung definiert und die Teamspeak Version aktualisiert.
 ENV TS_VERSION LATEST
 ENV LANG C.UTF-8
 #Zuerst werden Updates gemacht
